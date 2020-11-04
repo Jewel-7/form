@@ -20,16 +20,7 @@ padding: 0%;
    background-size: 2000px;
 }
 
-body
- {
-    background-image: url("fcb.webp");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-     width: 500px;
-     height: 500px;
 
-}
 
 form
 {
@@ -43,28 +34,57 @@ form
 button
 {
     font-size: 20px;
-    text-align: center;
+    margin-left: 50px;
 }
 
 input,label,select
 {
-    background-color: blanchedalmond;
+    
+    background-color: white;
     color: black;
   
     
 }
 
-input[type='radio']:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: #d1d3d1;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
+
+
+legend{
+
+    font-size: larger;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    background-color: blanchedalmond;
+    
+   
 }
 
+fieldset{
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 10px;
+    color: black;
+}
+
+.p{
+    font-size: smaller;
+}
+
+body
+ {
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     width: 500px;
+     height: 500px;
+
+}
+
+.b
+{
+
+    
+    color:black;
+    background-color: white;
+}

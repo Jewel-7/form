@@ -9,14 +9,21 @@
 <body> 
 
     
-   <div class="a"><h1> Ufea Fan Registeration form </h1></div> 
+   <div class="a"><h1> Raw Fc Registeration form </h1></div> 
    
 
     
     
     <form action="">
+        
+         <fieldset>
+
+            <legend>Player Info</legend><br><br>
+    
         <label for="username"> Your Name</label>
         <input type="text" value="" id="username" ><br><br>
+        <label for="email"> Your email</label>
+        <input type="email" value="" id="email" ><br><br>
         <label for="">Gender</label> 
         <select name="" id="">
             <option value=""> </option>
@@ -27,12 +34,38 @@
         <label for="Number"> Your Age</label>
         <input type="text" value="" id="Number" ><br><br>
 
+        <label for="">Preferred Postion</label>
+            <select name="" id="">
+                <option value=""> </option>
+                <option value="Gk"> Goal Kepper</option>
+                <option value="Cb">Centre Back</option>
+                <option value="Rb">Right Back</option>
+                <option value="LB">Left Back</option>
+                <option value="DMF">Defensive midfielder</option>
+                <option value="CMF">Central midfielder</option>
+                <option value="AMF">Attacking midfielder</option>
+                <option value="LWF">Left Wing Forward</option>
+                <option value="RWF">Right Wing Forward</option>
+                <option value="ST">Striker</option>
+            </select><br>
+            <label for="Extra">If more than one postion Please specify</label>
+            <input type="text" id="Extra"><br><br>
+
+        <label for="">Preferred Foot</label>
+            <select name="" id="">
+                <option value=""></option>
+                <option value="R">Right</option>
+                <option value="L">Left</option>
+                <option value="B">Both</option>
+            </select><br><br>
+
+         </fieldset><br><br>
+
+         <fieldset>
+             <Legend>Your interest</Legend>
 
         <label for="Fc"> Favourite Club</label><br>
-
-            <input type="radio" value="fcb" > Barcelona <br>
-            <input type="radio"value="ars"> Arsenal<br>
-            <input type="radio" value="psg">Paris Saint Germain<br><br>
+            <input type="text" id="Fc"><br><br>
        
 
         <label for="Leauge"> Favourite Leauge</label>
@@ -40,19 +73,22 @@
                 <option value=""> </option>
                 <option value="LL"> La Liga</option>
                 <option value="EPL">English Premier Leauge</option>
+                <option value="SA">Serie A</option>
                 <option value="BB">Budensliga</option>
+                <option value="L1">Ligue 1</option>
+
+
 
 
             </select> <br> <br>
-        <label for="mail"> Your mail</label>
-        <input type="text" value="" id="mail" ><br><br>
-
-        <button> SUBMIT</button>
-
-
-
+        
+            
+        
+    </fieldset><br>
+    <button> SUBMIT</button><br>
+    <div class="b"><h6> Mail us  your videos</h6></div> 
     </form>
-
+   
 
 
 </body>
